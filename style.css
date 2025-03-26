@@ -19,22 +19,9 @@
         font-size: 1.2em;
     }
 }
-/* Mode mobile : réduire la taille et ajuster l'affichage */
-@media (max-width: 768px) {
-  nav ul {
-      flex-direction: column; /* Met en colonne */
-      align-items: center;
-  }
-  
-  nav ul li {
-      width: 100%;
-      text-align: center;
-  }
 
-  nav ul li a {
-      font-size: 18px; /* Ajuste la taille */
-      padding: 10px;
-  }
+
+
 
 img {
     max-width: 100%;
